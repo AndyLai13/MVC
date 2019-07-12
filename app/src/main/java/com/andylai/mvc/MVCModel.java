@@ -48,4 +48,15 @@ final class MVCModel {
         return mRetryCount;
     }
 
+    public static class MemberInfo {
+        public String name;
+        public String email;
+        public boolean isVIP;
+
+        public MemberInfo(String name, String email, boolean isVIP) {
+            this.name = name;
+            this.email = email;
+            this.isVIP = isVIP;
+        }
+    }
 }
