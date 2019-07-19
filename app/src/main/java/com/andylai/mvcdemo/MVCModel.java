@@ -1,4 +1,4 @@
-package com.andylai.mvc;
+package com.andylai.mvcdemo;
 
 final class MVCModel {
 

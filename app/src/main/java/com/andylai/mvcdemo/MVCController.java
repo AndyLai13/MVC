@@ -1,4 +1,4 @@
-package com.andylai.mvc;
+package com.andylai.mvcdemo;
 
 import android.content.Context;
 
@@ -29,5 +29,4 @@ class MVCController {
             }
         }
     }
-
 }

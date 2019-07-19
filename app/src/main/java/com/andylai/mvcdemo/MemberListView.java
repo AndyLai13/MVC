@@ -1,4 +1,4 @@
-package com.andylai.mvc;
+package com.andylai.mvcdemo;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
-import com.andylai.mvc.MVCModel.MemberInfo;
+import com.andylai.mvcdemo.MVCModel.MemberInfo;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.andylai.mvc
+package com.andylai.mvcdemo
 
 import org.junit.Test
 

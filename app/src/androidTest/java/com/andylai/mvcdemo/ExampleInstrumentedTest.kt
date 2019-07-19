@@ -1,4 +1,4 @@
-package com.andylai.mvc
+package com.andylai.mvcdemo
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
