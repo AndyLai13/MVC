@@ -1,3 +1,8 @@
 <resources>
 	<string name="app_name">MVC</string>
+	<string name="id">ID</string>
+	<string name="first_name">First Name</string>
+	<string name="last_name">Last Name</string>
+	<string name="save">save</string>
+	<string name="load">load</string>
 </resources>

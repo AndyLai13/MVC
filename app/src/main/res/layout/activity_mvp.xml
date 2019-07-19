@@ -7,4 +7,58 @@
 	android:layout_height="match_parent"
 	tools:context="com.andylai.mvcdemo.mvp.MVPActivity">
 
+	<android.support.constraint.ConstraintLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:inputType="textPersonName"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.5"
+			app:layout_constraintTop_toTopOf="parent"
+			android:layout_marginTop="50dp"
+			android:ems="10"
+			android:id="@+id/editText_id"
+			android:hint="ID"/>
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:inputType="textPersonName"
+			android:ems="10"
+			android:id="@+id/editText_firstName"
+			android:hint="First Name"
+			app:layout_constraintStart_toStartOf="@+id/editText_id"
+			app:layout_constraintTop_toBottomOf="@id/editText_id"/>
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:inputType="textPersonName"
+			android:ems="10"
+			android:id="@+id/editTest_lastName"
+			android:hint="Last Name"
+			app:layout_constraintStart_toStartOf="@+id/editText_id"
+			app:layout_constraintTop_toBottomOf="@id/editText_firstName"/>
+
+		<Button
+			android:text="save"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/button_save"
+			app:layout_constraintStart_toStartOf="@+id/editText_id"
+			app:layout_constraintTop_toBottomOf="@+id/editTest_lastName"/>
+
+		<Button
+			android:id="@+id/button_load"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="load"
+			app:layout_constraintStart_toStartOf="@id/editText_id"
+			app:layout_constraintTop_toBottomOf="@id/button_save"/>
+	</android.support.constraint.ConstraintLayout>
+
 </android.support.constraint.ConstraintLayout>
