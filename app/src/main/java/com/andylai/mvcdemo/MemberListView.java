@@ -12,7 +12,7 @@ import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
-import com.andylai.mvcdemo.MVCModel.MemberInfo;
+import com.andylai.mvcdemo.DataClass.MemberInfo;
 
 import java.util.ArrayList;
 
@@ -69,9 +69,9 @@ public class MemberListView extends AppCompatActivity {
                 holder = (ViewHolder) convertView.getTag();
             }
 
-            holder.name.setText(memberList.get(position).name);
-            holder.email.setText(memberList.get(position).email);
-            holder.isVIP.setChecked(memberList.get(position).isVIP);
+            holder.name.setText(memberList.get(position).getName());
+            holder.email.setText(memberList.get(position).getEmail());
+            holder.isVIP.setChecked(memberList.get(position).isVIP());
             return convertView;
         }
 

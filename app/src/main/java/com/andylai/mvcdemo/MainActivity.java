@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import com.andylai.mvcdemo.mvc.MVCActivity;
 import com.andylai.mvcdemo.mvp.MVPActivity;
-import com.andylai.mvcdemo.mvvm.MVVMActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, MVPActivity.class));
                 break;
             case R.id.btn_mvvm:
-                startActivity(new Intent(this, MVVMActivity.class));
+//                startActivity(new Intent(this, MVVMActivity.class));
                 break;
         }
     }
